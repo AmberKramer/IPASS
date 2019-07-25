@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tcs3200',['TCS3200',['../class_t_c_s3200.html#a00358b32e1ea48c78e2f515ae545fe49',1,'TCS3200']]]
+  ['measure',['measure',['../classfrequency.html#a0460c596fd981443ee7d2b443d2b6e74',1,'frequency']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['red',['red',['../class_t_c_s3200.html#a06e8cec19bbcb79dd17738f9d1f75830',1,'TCS3200']]]
+  ['measure',['measure',['../classfrequency.html#a0460c596fd981443ee7d2b443d2b6e74',1,'frequency']]]
 ];
