@@ -60,35 +60,97 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classfrequency-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">frequency Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>frequency class  
+ <a href="classfrequency.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="frequency_8hpp_source.html">frequency.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5786bbe3c35792b8bb0bce4d2d8b6a8b"><td class="memItemLeft" align="right" valign="top"><a id="a5786bbe3c35792b8bb0bce4d2d8b6a8b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>frequency</b> (hwlib::pin_in &amp;input, int sampleAmount=1)</td></tr>
+<tr class="memitem:a5786bbe3c35792b8bb0bce4d2d8b6a8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfrequency.html#a5786bbe3c35792b8bb0bce4d2d8b6a8b">frequency</a> (hwlib::pin_in &amp;input, int sampleAmount=1)</td></tr>
+<tr class="memdesc:a5786bbe3c35792b8bb0bce4d2d8b6a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a5786bbe3c35792b8bb0bce4d2d8b6a8b">More...</a><br /></td></tr>
 <tr class="separator:a5786bbe3c35792b8bb0bce4d2d8b6a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2838a0a403e18417bfc6047f55997afa"><td class="memItemLeft" align="right" valign="top"><a id="a2838a0a403e18417bfc6047f55997afa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>measure</b> ()</td></tr>
-<tr class="separator:a2838a0a403e18417bfc6047f55997afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a1a19dc831d90fda4936f26c840cd16dc"><td class="memItemLeft" align="right" valign="top"><a id="a1a19dc831d90fda4936f26c840cd16dc"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>result</b> =0</td></tr>
-<tr class="separator:a1a19dc831d90fda4936f26c840cd16dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0460c596fd981443ee7d2b443d2b6e74"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfrequency.html#a0460c596fd981443ee7d2b443d2b6e74">measure</a> ()</td></tr>
+<tr class="memdesc:a0460c596fd981443ee7d2b443d2b6e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measure function.  <a href="#a0460c596fd981443ee7d2b443d2b6e74">More...</a><br /></td></tr>
+<tr class="separator:a0460c596fd981443ee7d2b443d2b6e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>frequency class </p>
+<p>This is a library that measures the frequency coimming in on a given pin. There is also a sampleAmount saved, to determine how often the scan is taken. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5786bbe3c35792b8bb0bce4d2d8b6a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5786bbe3c35792b8bb0bce4d2d8b6a8b">&#9670;&nbsp;</a></span>frequency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">frequency::frequency </td>
+          <td>(</td>
+          <td class="paramtype">hwlib::pin_in &amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleAmount</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<p>This constructor sets up the input pin that'll give the frequency. The sample amount is also set and has a standerd value of 1, so if the users doesn't enter an amount it scans once. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0460c596fd981443ee7d2b443d2b6e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0460c596fd981443ee7d2b443d2b6e74">&#9670;&nbsp;</a></span>measure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int frequency::measure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Measure function. </p>
+<p>This function measures and calculats the frequency and returns in as an int. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="frequency_8hpp_source.html">frequency.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jul 22 2019 13:29:28 for &lt;project name&gt; by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 25 2019 12:00:50 for &lt;project name&gt; by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

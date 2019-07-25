@@ -66,29 +66,107 @@ $(function() {
 <div class="title">Servo Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_servo.html" title="Servo supporting class. ">Servo</a> supporting class.  
+ <a href="class_servo.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_servo_support_8hpp_source.html">ServoSupport.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa9cb599c836a3ac6f2d174fafc0a8d45"><td class="memItemLeft" align="right" valign="top"><a id="aa9cb599c836a3ac6f2d174fafc0a8d45"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Servo</b> (hwlib::pin_out &amp;wave)</td></tr>
-<tr class="separator:aa9cb599c836a3ac6f2d174fafc0a8d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5def29f579de237f59672f0e3e48ad86"><td class="memItemLeft" align="right" valign="top"><a id="a5def29f579de237f59672f0e3e48ad86"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPosition</b> (int P)</td></tr>
-<tr class="separator:a5def29f579de237f59672f0e3e48ad86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc63b0595f2683185d5699dad9a96214"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_servo.html#acc63b0595f2683185d5699dad9a96214">Servo</a> (hwlib::pin_out &amp;servoInput)</td></tr>
+<tr class="memdesc:acc63b0595f2683185d5699dad9a96214"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_servo.html" title="Servo supporting class. ">Servo</a> constructor.  <a href="#acc63b0595f2683185d5699dad9a96214">More...</a><br /></td></tr>
+<tr class="separator:acc63b0595f2683185d5699dad9a96214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a506960b2b140dcc29990e241064d2477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_servo.html#a506960b2b140dcc29990e241064d2477">SetServoPosition</a> (int <a class="el" href="class_servo.html#abb3dd47d32cdb7735d63767d8b75604c">P</a>)</td></tr>
+<tr class="memdesc:a506960b2b140dcc29990e241064d2477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set position.  <a href="#a506960b2b140dcc29990e241064d2477">More...</a><br /></td></tr>
+<tr class="separator:a506960b2b140dcc29990e241064d2477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:abb3dd47d32cdb7735d63767d8b75604c"><td class="memItemLeft" align="right" valign="top"><a id="abb3dd47d32cdb7735d63767d8b75604c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>P</b></td></tr>
+<tr class="memitem:abb3dd47d32cdb7735d63767d8b75604c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_servo.html#abb3dd47d32cdb7735d63767d8b75604c">P</a></td></tr>
+<tr class="memdesc:abb3dd47d32cdb7735d63767d8b75604c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position.  <a href="#abb3dd47d32cdb7735d63767d8b75604c">More...</a><br /></td></tr>
 <tr class="separator:abb3dd47d32cdb7735d63767d8b75604c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_servo.html" title="Servo supporting class. ">Servo</a> supporting class. </p>
+<p>This class helps with controlling the servo's by simply setting the servo to one of two positions. It does this by sending a 20 ms wave to the input_pin from the servo. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acc63b0595f2683185d5699dad9a96214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc63b0595f2683185d5699dad9a96214">&#9670;&nbsp;</a></span>Servo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Servo::Servo </td>
+          <td>(</td>
+          <td class="paramtype">hwlib::pin_out &amp;&#160;</td>
+          <td class="paramname"><em>servoInput</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_servo.html" title="Servo supporting class. ">Servo</a> constructor. </p>
+<p>The constructor of the servo sets the servo up with the output pins it needs (input for the servo). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a506960b2b140dcc29990e241064d2477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a506960b2b140dcc29990e241064d2477">&#9670;&nbsp;</a></span>SetServoPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servo::SetServoPosition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>P</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set position. </p>
+<p>The Set position function sets the servo to the position given by the P(osition) variable. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abb3dd47d32cdb7735d63767d8b75604c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb3dd47d32cdb7735d63767d8b75604c">&#9670;&nbsp;</a></span>P</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servo::P</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Position. </p>
+<p>The variable P is used to set the Position of the servo motor. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_servo9g_8hpp_source.html">Servo9g.hpp</a></li>
+<li><a class="el" href="_servo_support_8hpp_source.html">ServoSupport.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jul 22 2019 13:29:28 for &lt;project name&gt; by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 25 2019 12:00:50 for &lt;project name&gt; by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
